@@ -13,5 +13,15 @@ Download and test Chrome driver for linux (databricks file system)
 
 ## Web scraping
 Got to the website and inspect elements that contain the required data. For worldometer website, check the table element 'main_table_countries_today' and data under it.
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/SnippetNavigateToWebsite.JPG)
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/SnippetMainTable.JPG)
 
-Use find_element_by_xpath() save the table and further extract the data row by row.
+Use find_element_by_xpath() save the table and further extract the data row by row into a pandas or spark dataframe.
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/SnippetIterateThroughTable.JPG)
+
+## Data cleaning
+The extracted table may contain some missing or unformatted data which can be cleaned using pyspark sql functions
+
+## Query and prepare data for external use
+Create temporary views in databricks to query and build basic visualizations using Spark SQL
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/SnippetSQLQuery.JPG)
