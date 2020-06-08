@@ -25,3 +25,10 @@ The extracted table may contain some missing or unformatted data which can be cl
 ## Query and prepare data for external use
 Create temporary views in databricks to query and build basic visualizations using Spark SQL
 ![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/SnippetSQLQuery.JPG)
+
+Create database tables so that external tools can access the data that we collected and cleaned
+
+Example: Using Tableau to make visualization from the data stored in Databricks tables. Follow instructions from this link  https://docs.databricks.com/integrations/bi/tableau.html
+
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/TableauDatabricks2.png)
+![alt text](https://github.com/AkshayGavandi/WebScraping/blob/master/Images/TableauDatabricks3.png)
